@@ -28,7 +28,7 @@ const ProductSection = () => {
           };
       
           fetchProducts();
-        },[])
+        })
         return (
         <div>
           <div className="header-container">
